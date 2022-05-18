@@ -1,0 +1,36 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 4em;
+    /* margin-bottom: 1em; */
+    padding-bottom: 6em;
+    text-align: center;
+    /* background-color: #1DB954; */
+    /* border-radius: 60px; */
+}
+
+.header {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.todo-input {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.todos {
+    text-align: center;
+}

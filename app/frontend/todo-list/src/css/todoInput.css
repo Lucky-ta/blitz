@@ -1,0 +1,10 @@
+.text-todo-input {
+    height: 5em;
+    width: 100%;
+   max-width: 70%;
+   border-radius: 18px;
+   text-align: 2px;
+   text-indent: 40px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 

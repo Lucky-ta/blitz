@@ -1,10 +1,21 @@
-import { useState } from 'react'
+import Header from "./components/Header"
+import TodoInput from "./components/TodoInput"
+import Todos from "./components/Todos"
+import './index.css'
 
 function App() {
 
   return (
-    <div>
-      <h1>TODO LIST</h1>
+    <div className="page-container">
+      <div className="header">
+        <Header/>
+      </div>
+      <div className="todo-input">
+        <TodoInput />
+      </div>
+      <div className="todos">
+        <Todos />
+      </div>
     </div>
   )
 }

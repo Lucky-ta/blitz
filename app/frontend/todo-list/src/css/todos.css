@@ -1,0 +1,31 @@
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3em;
+    gap: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.task-container {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    justify-content: space-between;
+    height: 4em;
+    border-radius: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+p {
+    margin-left: 10%;
+    padding-top: 0.6em;
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.exclude-btn {
+    margin-right: 3em;
+}
