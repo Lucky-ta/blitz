@@ -4,7 +4,20 @@
    max-width: 70%;
    border-radius: 18px;
    text-align: 2px;
-   text-indent: 40px;
+   text-indent: 30px;
    border: none;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-} 
+}
+
+.add-todo-btn {
+    background: none;
+    border: none;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.text-todo-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
