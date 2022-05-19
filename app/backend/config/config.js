@@ -2,7 +2,7 @@ module.exports = {
   "development": {
     "username": "root",
     "password": '27031977l',
-    "database": "todo-list",
+    "database": "todo_list",
     "host": "127.0.0.1",
     "dialect": "mysql",
     define: {

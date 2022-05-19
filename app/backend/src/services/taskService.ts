@@ -1,10 +1,15 @@
 const { Task } = require('../../models')
 
-const getAllTasks = async() => {
+export const getAllTasks = async() => {
     const tasks = await Task.findAll();
     if (tasks !== null) {
         return { status: 200, response: tasks }
     } return { status: 404, response: { message: 'ERROR' }}
 }
 
-export default getAllTasks;
+export const setNewTask = async(task: string) => {
+    const newTask = await Task.create({task});
+    if (newTask !== null) {
+        return { status: 200, response: newTask } 
+    } return { status: 404, response: { message: 'ERROR' }}
+}

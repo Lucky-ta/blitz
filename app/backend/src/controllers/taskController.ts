@@ -1,7 +1,7 @@
 import { Response, Request } from "express";
-import getAllTasks from "../services/taskService";
+import { getAllTasks, setNewTask } from "../services/taskService";
 
-const getTasks = async(req: Request, res: Response) => {
+export const getTasks = async(req: Request, res: Response) => {
     try {
         const data = await getAllTasks();
         return res.status(data.status).json(data.response);
@@ -10,4 +10,14 @@ const getTasks = async(req: Request, res: Response) => {
     }
 }
 
-export default getTasks
+export const addTasks = async(req: Request, res: Response) => {
+    try {
+        const {task} = req.body;
+        console.log(task);
+        
+        const data = await setNewTask(task);
+        return res.status(data.status).json(data.response);
+    } catch (e: any) {
+        return res.status(500).json(e.message)
+    }
+}
