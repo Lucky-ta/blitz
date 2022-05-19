@@ -1,9 +1,10 @@
-import { Router } from "express";
-import  { addTasks, getTasks } from "../controllers/taskController";
+import { Router } from 'express';
+import { addTasks, excludeTasks, getTasks } from '../controllers/taskController';
 
 const taskRouter = Router();
 
-taskRouter.get('/tasks', getTasks );
-taskRouter.post('/tasks', addTasks );
+taskRouter.get('/tasks', getTasks);
+taskRouter.post('/tasks', addTasks);
+taskRouter.delete('/tasks/:id', excludeTasks);
 
-export default taskRouter
+export default taskRouter;
