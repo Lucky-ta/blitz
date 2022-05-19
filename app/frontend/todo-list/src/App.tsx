@@ -1,14 +1,13 @@
-import Header from "./components/Header"
-import TodoInput from "./components/TodoInput"
-import Todos from "./components/Todos"
-import './index.css'
+import Header from './components/Header';
+import TodoInput from './components/TodoInput';
+import Todos from './components/Todos';
+import './index.css';
 
 function App() {
-
   return (
     <div className="page-container">
       <div className="header">
-        <Header/>
+        <Header />
       </div>
       <div className="todo-input">
         <TodoInput />
@@ -17,7 +16,7 @@ function App() {
         <Todos />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
