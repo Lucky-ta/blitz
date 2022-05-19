@@ -12,20 +12,34 @@
     display: flex;
     background-color: rgb(241, 241, 241);
     width: 100%;
-    justify-content: space-between;
     height: 4em;
     border-radius: 20px;
-    color: rgb(255, 0, 0);
-    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
+
 p {
-    margin-left: 10%;
-    padding-top: 0.6em;
     font-size: 1.7em;
     font-weight: 400;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-left: 6em;
 }
 
 .exclude-btn {
-    margin-right: 3em;
+    padding-right: 4em;
+    background: none;
+    border: none;
+    color: rgb(250, 45, 45);
+}
+
+.check-btn {
+    padding-left: 4em;
+    padding-right: 0%;
+    background: none;
+    border: none;
+    color: rgb(0, 128, 0);
 }
