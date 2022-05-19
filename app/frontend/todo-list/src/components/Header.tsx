@@ -1,3 +1,5 @@
+import '../css/header.css'
+
 function Header() {
     return(
         <div className="todo-title-container">

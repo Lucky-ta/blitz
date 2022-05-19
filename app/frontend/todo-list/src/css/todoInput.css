@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Oswald&display=swap');
+
 .text-todo-input {
     height: 5em;
     width: 100%;
    max-width: 70%;
    border-radius: 18px;
    text-align: 2px;
-   text-indent: 30px;
+   text-indent: 2em;
    border: none;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   font-family: 'Grape Nuts', cursive;
+    font-size: 1.3em;
+    font-weight: 700;
 }
 
 .add-todo-btn {
@@ -14,10 +19,12 @@
     border: none;
     position: absolute;
     margin-left: 50%;
+    color: rgb(1, 158, 1);
 }
 
 .text-todo-input-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }

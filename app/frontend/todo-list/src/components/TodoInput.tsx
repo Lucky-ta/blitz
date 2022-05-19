@@ -6,7 +6,7 @@ function TodoInput() {
         <div className='text-todo-input-container'>
             <input className="text-todo-input" type="text" placeholder="ADICIONE UMA TAREFA"/>
             <button className='add-todo-btn'>
-                <FiPlusCircle color='red' size={30}/>
+                <FiPlusCircle size={'3em'}/>
             </button>
         </div>
     )

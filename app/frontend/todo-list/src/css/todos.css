@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Oswald&display=swap');
+
 .todos-container {
     display: flex;
     flex-direction: column;
@@ -22,11 +24,12 @@
 }
 
 p {
-    font-size: 1.7em;
-    font-weight: 400;
-    color: rgb(255, 0, 0);
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(31, 133, 216);
     position: absolute;
-    margin-left: 6em;
+    margin-left: 5.3em;
+    font-family: 'Grape Nuts', cursive;
 }
 
 .exclude-btn {
