@@ -15,3 +15,5 @@ Projeto para simulação de processo seletivo da Trybe (TODO -LIST)
 - Voce pode excluir uma tarfe clilcando no sinal vermelho de X, assim a tarefa sai de sua lista!
 
 ---Fique a vontade para adicionar quantas tarefas desejar!!---
+
+Link de acesso: https://blitz-mzcgrhn3f-lucky-ta.vercel.app/
