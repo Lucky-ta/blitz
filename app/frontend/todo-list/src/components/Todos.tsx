@@ -1,7 +1,6 @@
 import '../css/todos.css';
 import { VscChromeClose, VscCheckAll } from 'react-icons/vsc';
 import { useContext, useEffect, useState } from 'react';
-import { MyContext } from '../contexts/MyContext';
 import UseApi from '../services/UseApi';
 
 function Todos() {
