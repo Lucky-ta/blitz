@@ -1,13 +1,16 @@
 import '../css/todoInput.css';
 import { FiPlusCircle } from 'react-icons/fi';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import UseApi from '../services/UseApi';
+import { MyContext } from '../context/MyContext';
 
 function TodoInput() {
     const [task, setTask] = useState('');
+    const { setReload, reload } = useContext(MyContext)
 
     const handlerInput = async () => {
         const data = await UseApi.addNewTask(task);
+        setReload(!reload);
         console.log(data);
     }
 
