@@ -25,8 +25,6 @@ function Todos() {
   const deleteTask = async(id: any) => {
     await UseApi.deleteTask(id)
     setReload(!reload)
-    console.log(id);
-    
   }
 
   return (

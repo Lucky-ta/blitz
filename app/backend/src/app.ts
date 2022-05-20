@@ -6,6 +6,6 @@ const app: Express = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/', taskRouter);
+app.use('/tasks', taskRouter);
 
 export default app;
