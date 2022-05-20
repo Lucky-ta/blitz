@@ -12,6 +12,6 @@ Projeto para simulação de processo seletivo da Trybe (TODO -LIST)
 - O frontend não esta responsivo para celulares, apenas para computadores / tablets;
 - O que você pode fazer?--
 - Voce pode digitar uma nova tarefa e clicando no sinal verde de + a tarefa vai para a lista!
--Voce pode excluir uma tarfe clilcando no sinal vermelho de X, assim a tarefa sai de sua lista!
+- Voce pode excluir uma tarfe clilcando no sinal vermelho de X, assim a tarefa sai de sua lista!
 
 ---Fique a vontade para adicionar quantas tarefas desejar!!---
